@@ -1,6 +1,5 @@
-#about {
-  height: 100vh;
-}
+
+
 
 #app {
   // opacity: 0 !important;
@@ -115,7 +114,7 @@
 .image {
   // border: 1px solid black;
   font-family: 'Molle', cursive;
-  width: 45%;
+  // width: 45%;
   min-height: 100%;
   display: flex;
   justify-self: center;
@@ -128,6 +127,10 @@
   animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
   margin-top:9%;
   margin-bottom:5%;
+  }
+  
+
+
 
   @keyframes image-in {
     from {
@@ -147,4 +150,3 @@
     width: 100%;
     height: auto;
   }
-}

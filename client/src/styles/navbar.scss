@@ -11,32 +11,44 @@ html {
     justify-content: space-around;
     list-style-type: none;
     width: -webkit-fill-available;
+    .name {
+      a {
+        color: rgba(91, 190, 152);
+        font-size: 40px;
+        font-family: 'Molle', cursive;
+        &:hover {
+          transform: scale(1.1);
+          cursor: pointer;
+          border-radius: 10px;
+          color: white;
+        }
+      }
+    }
+    .nav {
     a {
       text-decoration: none;
       width: 200px;
       text-align: center;
       background-color: rgba(0,0,0,0);
-      border: 1px rgba(91, 190, 152) solid;
       color: rgba(91, 190, 152);
-      font-size: 20px;
+      font-size: 25px;
       margin-top: 1%;
+      margin: 5px;
       padding: 1%;
-      border-radius: 10%;
+      font-family: 'Molle';
       box-shadow: lightblue;
       transition: 0.4s ease-in-out;
       &:hover {
         transform: scale(1.1);
         cursor: pointer;
         background-color: rgba(91, 190, 152);
+        border-radius: 10px;
         color: white;
       }
+    }
     }
   }
 }
 
-li {
-  &:hover {
-    color:white;
-    cursor: pointer;
-  }
-}
+
+

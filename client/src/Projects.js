@@ -27,7 +27,7 @@ const Projects = () => {
                   </button>
                   {showMore &&
                   <div className="paragraph">
-                    <p>I had one week to build a grid- based game using JavaScript, CSS and HTML.<br /> I chose to create Frogger, which was challenging but helped solidify my fundamental JavaScript knowledge.</p>
+                    {/* <p>I had one week to build a grid- based game using JavaScript, CSS and HTML.<br /> I chose to create Frogger, which was challenging but helped solidify my fundamental JavaScript knowledge.</p> */}
                   </div>
                   }
                 </div>
@@ -51,7 +51,7 @@ const Projects = () => {
                   </button>
                   {showMore &&
                   <div className="paragraph">
-                    <p>We used an external API to build a React app that allowed users to view a variety of ‘Pokemon’.</p>
+                    {/* <p>We used an external API to build a React app that allowed users to view a variety of ‘Pokemon’.</p> */}
                   </div>
                   }
                 </div>
@@ -77,7 +77,7 @@ const Projects = () => {
                   </button>
                   {showMore &&
                   <div className="paragraph">
-                    <p>We used Express and MongoDB for backend and React for frontend<br /> to develop an application and that shows users which cities in the UK have the cheapest beers<br /> as well as where exactly in each city you can find said beer.</p>
+                    {/* <p>We used Express and MongoDB for backend and React for frontend<br /> to develop an application and that shows users which cities in the UK have the cheapest beers<br /> as well as where exactly in each city you can find said beer.</p> */}
                   </div>
                   }
                 </div>
