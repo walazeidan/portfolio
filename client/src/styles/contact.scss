@@ -1,0 +1,40 @@
+#contact {
+  .title {
+    h1{
+    font-size: 100px;
+    // margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    margin:5%;
+    }
+  }
+}
+
+.contact-links{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px rgba(91, 190, 152) solid;
+  background-color: rgba(91, 190, 152, 0.2);
+  border-radius: 10px;
+  }
+  .personal-link{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px;
+    background-color: rgba(0,0,0,0);
+    border: 1px rgba(91, 190, 152) solid;
+    border-radius: 10px;
+    color: rgba(91, 190, 152);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+      background-color: rgba(91, 190, 152);
+      color: white;
+    }
+  }

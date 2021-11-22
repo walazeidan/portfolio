@@ -1,0 +1,33 @@
+#skills {
+  // height: 100vh;
+  // border: 1px solid black;
+  .title {
+    h1{
+      font-size: 100px;
+    display: flex;
+    justify-content: start;
+    margin:5%;
+    }
+  }
+  .bullet-list {
+    border: 1px rgba(91, 190, 152) solid;
+    background-color: rgba(91, 190, 152, 0.2);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    i {
+      font-size: 200px;
+      margin: 10px;
+      transition: 0.4s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  h1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top:30%;
+  }
+}

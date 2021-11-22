@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  height: 10vh;
+  background-color: rgba(91, 190, 152, 0.2);
+  border: 1px rgba(91, 190, 152) solid;
+  .links {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: -webkit-fill-available;
+    a {
+      text-decoration: none;
+      width: 200px;
+      text-align: center;
+      background-color: rgba(0,0,0,0);
+      border: 1px rgba(91, 190, 152) solid;
+      color: rgba(91, 190, 152);
+      font-size: 20px;
+      margin-top: 1%;
+      padding: 1%;
+      border-radius: 10%;
+      box-shadow: lightblue;
+      transition: 0.4s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        background-color: rgba(91, 190, 152);
+        color: white;
+      }
+    }
+  }
+}
+
+li {
+  &:hover {
+    color:white;
+    cursor: pointer;
+  }
+}

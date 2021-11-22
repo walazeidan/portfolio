@@ -1,0 +1,177 @@
+#projects {
+  // height: 100vh;
+  // border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .title {
+    h1{
+    font-size: 100px;
+    // margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    margin:5%;
+    }
+  }
+  .projects-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+    border: 1px rgba(91, 190, 152) solid;
+    background-color: rgba(91, 190, 152, 0.2);
+    border-radius: 10px;
+    // justify-content: space-around;
+    .projects-one {
+      margin:50px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .frogger-links {
+        margin: 10px;
+        .frogger {
+          background-image: url("./images/Screenshot 2021-11-14 at 14.05.34.png");
+          position: relative;
+          width:500px;
+          height: 250px;
+          border-radius: 10px;
+          margin: 5px auto;
+          transition: 0.4s ease-in-out;
+          &:hover {
+            transform: scale(1.1);
+            // background-image: url("./images/hover-frogger.gif");
+            cursor: pointer;
+          }
+        }
+      }
+    .pokedex-links{
+        margin: 10px;
+      .pokedex {
+        background-image: url("./images/Screenshot 2021-11-20 at 15.07.07.png");
+        position: relative;
+        width:500px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 5px auto;
+        transition: 0.4s ease-in-out;
+        &:hover {
+          transform: scale(1.1);
+          background-image: url("./images/Screenshot 2021-11-21 at 13.13.21.png");
+          // opacity: 0.5;
+          cursor: pointer;
+        }
+      }
+    }
+}
+  .projects-two {
+    margin:50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .pint-pirates-links {
+      margin: 10px;
+      .pint-pirates {
+        background-image: url("./images/Screenshot 2021-11-20 at 15.44.42.png");
+        position: relative;
+        width:500px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 5px auto;
+        transition: 0.4s ease-in-out;
+        &:hover {
+          transform: scale(1.1);
+          background-image: url("./images/pint-pirate-hover.png");
+          // opacity: 0.5;
+          cursor: pointer;
+        }
+      }
+  }
+    .hollywood-effect-links{
+      margin: 10px;
+      max-width: 700px;
+      // max-height: fit-content;
+    .hollywood-effect {
+      background-image: url("./images/Screenshot 2021-11-20 at 15.47.19.png");
+      position: relative;
+      width:500px;
+      height: 250px;
+      border-radius: 10px;
+      margin: 5px auto;
+      transition: 0.4s ease-in-out;
+        &:hover {
+          transform: scale(1.1);
+          background-image: url("./images/hollywood-hover.png");
+          // opacity: 0.5;
+          cursor: pointer;
+        }
+    }
+  }
+  }
+    }
+}
+
+.learn-more-p {
+  display: flex;
+  flex-direction: column;
+  // margin-left:40%;
+  .paragraph {
+    border-radius: 10px;
+    border: 1px rgba(91, 190, 152) solid;
+    max-width:800px;
+  p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    display: inline;
+    padding: 5px;
+    // margin-right: 80%;
+  }
+}
+}
+
+.learn-more {
+    position:static;
+    max-width: 100px ;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0);
+    border: 1px rgba(91, 190, 152) solid;
+    color: rgba(91, 190, 152);
+    transition: 0.4s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+      background-color: rgba(91, 190, 152);
+      color: white;
+    }
+}
+
+.all-btns {
+  display: flex;
+  .project-btns {
+    display: flex;
+    margin-left: 40%;
+    .github-btn {
+      margin: 5px;
+      border-radius: 50px;
+      background-color: rgba(0,0,0,0);
+      border: 1px rgba(91, 190, 152) solid;
+      color: rgba(91, 190, 152);
+      transition: 0.4s ease-in-out;
+      padding: 5px;
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        background-color: rgba(91, 190, 152);
+        color: white;
+    }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
