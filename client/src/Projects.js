@@ -99,11 +99,11 @@ const Projects = () => {
                   <button className="learn-more" onClick={handleMoreClick}>
                     {showMore ? 'Hide' : 'Learn more'}
                   </button>
-                  {showMore &&
+                  {/* {showMore &&
                   <div className="paragraph">
                     <p>TThis app allows users to vote on whether they prefer the movie adaptation of a book to the book or vice- versa. Users can register/login as well as leave reviews for the various titles that are available.</p>
                   </div>
-                  }
+                  } */}
                 </div>
                 <div className="project-btns">
                   <a href="https://github.com/walazeidan/Project-Four" className="github" rel="noreferrer" target="_blank">
@@ -114,6 +114,11 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
+              {showMore &&
+                  <div className="paragraph">
+                    <p>TThis app allows users to vote on whether they prefer the movie adaptation of a book to the book or vice- versa. Users can register/login as well as leave reviews for the various titles that are available.</p>
+                  </div>
+              }
             </div>
           </div>
         </div>

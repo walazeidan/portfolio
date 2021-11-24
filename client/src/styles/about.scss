@@ -1,6 +1,4 @@
 
-
-
 #app {
   // opacity: 0 !important;
   // visibility: hidden;
@@ -15,7 +13,7 @@
 #app {
   margin: 0 auto;
   margin-top: 2%;
-  border: 1px rgba(91, 190, 152) solid;
+  // border: 1px rgba(91, 190, 152) solid;
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
@@ -23,8 +21,8 @@
   max-height: 80vh;
   width: 90%;
   height: 100%;
-  background-color: rgba(91, 190, 152, 0.2);
-  color: #3a3535;
+  background-color: rgba(149, 125, 173,0.4);
+  color: white;
 }
 
 .title {
@@ -113,7 +111,7 @@
 
 .image {
   // border: 1px solid black;
-  font-family: 'Molle', cursive;
+  font-family: 'Abril Fatface', cursive;
   // width: 45%;
   min-height: 100%;
   display: flex;

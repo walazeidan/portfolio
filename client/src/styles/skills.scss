@@ -7,23 +7,20 @@
     display: flex;
     justify-content: start;
     margin:5%;
-    color: rgba(91, 190, 152);
+    color: #957DAD;
     }
   }
   .bullet-list {
-    border: 1px rgba(91, 190, 152) solid;
-    background-color: rgba(91, 190, 152, 0.2);
+    // border: 1px #957DAD solid;
+    background-color: white;
     border-radius: 10px;
     flex-wrap: wrap;
     border-radius: 10px;
     i {
       font-size: 200px;
-      color: rgba(91, 190, 152);
+      color: #957DAD;
       margin: 10px;
       transition: 0.4s ease-in-out;
-      &:hover {
-        transform: scale(1.1);
-      }
     }
   }
   h1{
