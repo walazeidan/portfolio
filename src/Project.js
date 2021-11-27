@@ -15,7 +15,7 @@ const Project = (props) => {
             <div className={`col-md-6 ${props.direction === 'reverse' ? 'order-3' : 'order-1'}`}>
               <div className="card-image-bio">
                 <div className="card-img-top">
-                  <img className="project-image" alt="project-image" src={props.image} />
+                  <img className="project-image" alt="project" src={props.image} />
                 </div>
               </div>
             </div> 

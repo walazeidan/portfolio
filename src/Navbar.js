@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar sticky-top navbar-expand-lg">
       <div className="links container-fluid">
         <div className="name">
-          <a href="#" className="navbar-brand">Wala Zeidan</a>
+          <a href="#about" className="navbar-brand">Wala Zeidan</a>
         </div>
         <button type="button" className="navbar-toggler navbar-dark navbar-lg" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
           <span className="navbar-toggler-icon"></span>

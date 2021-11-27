@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className="container">
-        <div id="app">
+        <div id="about">
           <div className="title">
             <Fade left>
               <h1>Wala Zeidan</h1>
