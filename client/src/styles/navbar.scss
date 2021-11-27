@@ -16,7 +16,7 @@ html {
         // color: #A2A2E0;
         color: white;
         font-size: 40px;
-        font-family: 'Abril Fatface', cursive;
+        font-family: 'Shrikhand', cursive;
         &:hover {
           transform: scale(1.1);
           cursor: pointer;
@@ -39,7 +39,7 @@ html {
       margin-top: 1%;
       margin: 5px;
       padding: 1%;
-      font-family: 'Abril Fatface';
+      font-family: 'Yuji Syuku', serif;
       transition: 0.4s ease-in-out;
       &:hover {
         transform: scale(1.1);
@@ -54,5 +54,10 @@ html {
   }
 }
 
+#navbarCollapse {
+  justify-content: flex-end;
+}
 
-
+.navbar-toggler {
+  border: 1px solid white;
+}

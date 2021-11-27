@@ -1,28 +1,18 @@
-import React from 'react'
+import Navbar from './Navbar'
 import About from './About'
 import Projects from './Projects'
-import Navbar from './Navbar'
 import Skills from './Skills'
 import Contact from './Contact'
-// import axios from 'axios'
 
 function App() {
-  // React.useEffect(() => {
-  //   const getData = async () => {
-  //     const res = await axios.get('/api/endpoint') // * <-- replace with your endpoint
-  //     console.log(res.data)
-  //   }
-  //   getData()
-  // })
-
-  return ( 
-    <>
+  return (
+    <div className="wrapper">
       <Navbar />
       <About />
       <Projects />
       <Skills />
       <Contact />
-    </>
+    </div>
   )
 }
 

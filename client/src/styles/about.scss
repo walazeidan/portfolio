@@ -1,150 +1,34 @@
-
-#app {
-  // opacity: 0 !important;
-  // visibility: hidden;
-  border-radius: 2%;
-  z-index: 100;
-
-  // &:hover {
-  //   opacity: 0.5;
-  // }
+#about {
+  height: 100vh;
 }
 
-#app {
+.wala-pic {
+  background-image: url("./images/wala.jpeg");
+  width: 325px;
+  height: 325px;
   margin: 0 auto;
   margin-top: 2%;
-  // border: 1px rgba(91, 190, 152) solid;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  padding-bottom: 4vmin;
-  max-height: 80vh;
-  width: 90%;
-  height: 100%;
-  background-color: rgba(149, 125, 173,0.4);
-  color: white;
+  border-radius: 100px;
 }
 
 .title {
-  padding-left: 1em;
-  grid-column: 1 / -1;
-  grid-row: 1;
-
-  font-family: 'Molle', cursive;
-  font-size: 8vw;
-  width: 100%;
-  z-index: 2;
-
-  // start
-
-  > .title-inner {
-    display: inline-block;
-  }
-}
-
-@keyframes text-clip {
-  from {
-    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
-  }
-  to {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-}
-
-@keyframes outer-left {
-  from {
-    transform: translateX(50%);
-  }
-  to {
-    transform: none;
-  }
-}
-
-@keyframes inner-left {
-  from {
-    transform: translateX(-50%);
-  }
-  to {
-    transform: none;
-  }
-}
-
-.cafe,
-.mozart {
-  animation: outer-left 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
-  // outline: 1px solid red;
-}
-
-// [class*='inner'] {
-//   outline: 1px solid blue;
-// }
-
-.title-inner {
-  display: inline-block;
-  animation: inner-left 1s 1s ease both;
-}
-
-.cafe-inner {
-  display: inline-block;
-  animation: inner-left 1s 1s ease both,
-    text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-}
-
-.mozart-inner {
-  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
-}
-
-.title {
-  animation: outer-left 1s 1s ease both;
-}
-
-.cafe {
-  // start
-  > .cafe-inner {
-    display: inline-block;
-  }
-}
-
-.mozart {
-  display: inline-block;
-}
-
-.image {
-  // border: 1px solid black;
-  font-family: 'Abril Fatface', cursive;
-  // width: 45%;
-  min-height: 100%;
-  display: flex;
-  justify-self: center;
-  grid-row: 1;
-  grid-column: 2;
-  margin-left: -2rem;
-  opacity: 0.7;
   display: flex;
   justify-content: center;
-  animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
-  margin-top:9%;
-  margin-bottom:5%;
+  h1 {
+    font-size: 75px;
   }
-  
+}
 
-
-
-  @keyframes image-in {
-    from {
-      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-    to {
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
+.bio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #957DAD;
+  border-radius: 30px;
+  margin:2%;
+  font-family: 'Yuji Syuku', serif;
+  P {
+    font-size: 30px;
+    color: white;
   }
-  p {
-    text-align: center;
-    font-size: 500px;
-  }
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+}

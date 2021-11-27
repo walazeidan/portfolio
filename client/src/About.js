@@ -1,26 +1,27 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade'
 
 const About = () => {
   return (
     <>
-      <div id="about">
+      <div className="container">
         <div id="app">
           <div className="title">
-            <div className="title-inner">
-              <div className="cafe">
-                <div className="cafe-inner">Wala</div>
-              </div>
-              <div className="mozart">
-                <div className="mozart-inner">Zeidan</div>
-              </div>
-            </div>
+            <Fade left>
+              <h1>Wala Zeidan</h1>
+            </Fade>
+          </div>
+          <div className="wala-pic">
           </div>
           <>
-            <div className="image">
-              <p>Welcome to my portfolio! <br />
+            <div className="bio">
+              <Fade right>
+                <p className="bio-border">Welcome to my portfolio! <br />
               I am a junior software engineer transitioning from medicine! <br />
               I love music, film, and all things tech.
-              </p>
+                </p>
+              </Fade>
+              
             </div>
           </>
         </div>

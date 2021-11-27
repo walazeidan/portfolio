@@ -1,125 +1,75 @@
-import React, { useState } from 'react'
+import React from 'react'
+import Fade from 'react-reveal/Fade'
+import Project from './Project'
 
 
 
 const Projects = () => {
-  const [ showMore, setShowMore ] = useState(false)
-
-  const handleMoreClick = () => {
-    setShowMore(!showMore)
-  }
 
   return (
     <>
       <div id="projects">
-        <div className="title">
-          <h1>Projects</h1>
-        </div>
-        <div className="projects-list">
-          <div className="projects-one">
-            <div className="frogger-links">
-              <div className="frogger">
-              </div>
-              <div className="all-btns">
-                <div className="learn-more-p">
-                  <button className="learn-more" onClick={handleMoreClick}>
-                    {showMore ? 'Hide' : 'Learn more'}
-                  </button>
-                  {showMore &&
-                  <div className="paragraph">
-                    {/* <p>I had one week to build a grid- based game using JavaScript, CSS and HTML.<br /> I chose to create Frogger, which was challenging but helped solidify my fundamental JavaScript knowledge.</p> */}
-                  </div>
-                  }
-                </div>
-                <div className="project-btns">
-                  <a href="https://github.com/walazeidan/Project-One" className="github" rel="noreferrer" target="_blank">
-                    <p className="github-btn">Code</p>
-                  </a>
-                  <a href="https://walazeidan.github.io/Project-One/" className="github" rel="noreferrer" target="_blank">
-                    <p className="github-btn">Explore</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="pokedex-links">
-              <div className="pokedex">
-              </div>
-              <div className="all-btns">
-                <div className="learn-more-p">
-                  <button className="learn-more" onClick={handleMoreClick}>
-                    {showMore ? 'Hide' : 'Learn more'}
-                  </button>
-                  {showMore &&
-                  <div className="paragraph">
-                    {/* <p>We used an external API to build a React app that allowed users to view a variety of ‘Pokemon’.</p> */}
-                  </div>
-                  }
-                </div>
-                <div className="project-btns">
-                  <a href="https://github.com/walazeidan/Project-Two" className="github" rel="noreferrer" target="_blank">
-                    <p className="github-btn">Code</p>
-                  </a>
-                  <a href="https://pokereactdex.netlify.app/" className="github" rel="noreferrer" target="_blank">
-                    <p className="github-btn">Explore</p>
-                  </a>
-                </div>
-              </div>
-            </div>
+        <div className="container">
+          <div className="title">
+            <Fade left>
+              <h1>Projects</h1>
+            </Fade>
+            <hr />
           </div>
-          <div className="projects-two">
-            <div className="pint-pirates-links">
-              <div className="pint-pirates">
-              </div>
-              <div className="all-btns">
-                <div className="learn-more-p">
-                  <button className="learn-more" onClick={handleMoreClick}>
-                    {showMore ? 'Hide' : 'Learn more'}
-                  </button>
-                  {showMore &&
-                  <div className="paragraph">
-                    {/* <p>We used Express and MongoDB for backend and React for frontend<br /> to develop an application and that shows users which cities in the UK have the cheapest beers<br /> as well as where exactly in each city you can find said beer.</p> */}
-                  </div>
-                  }
-                </div>
-                <div className="project-btns">
-                  <a href="https://github.com/walazeidan/Project-Three" className="github" rel="noreferrer" target="_blank">
-                    <p className="github-btn">Code</p>
-                  </a>
-                  <a href="https://pint-pirate.herokuapp.com/" className="github" rel="noreferrer" target="_blank">
-                    <p className="github-btn">Explore</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="hollywood-effect-links">
-              <div className="hollywood-effect">
-              </div>
-              <div className="all-btns">
-                <div className="learn-more-p">
-                  <button className="learn-more" onClick={handleMoreClick}>
-                    {showMore ? 'Hide' : 'Learn more'}
-                  </button>
-                  {/* {showMore &&
-                  <div className="paragraph">
-                    <p>TThis app allows users to vote on whether they prefer the movie adaptation of a book to the book or vice- versa. Users can register/login as well as leave reviews for the various titles that are available.</p>
-                  </div>
-                  } */}
-                </div>
-                <div className="project-btns">
-                  <a href="https://github.com/walazeidan/Project-Four" className="github" rel="noreferrer" target="_blank">
-                    <p className="github-btn">Code</p>
-                  </a>
-                  <a href="https://the-hollywood-effect.herokuapp.com/" className="github" rel="noreferrer" target="_blank">
-                    <p className="github-btn">Explore</p>
-                  </a>
-                </div>
-              </div>
-              {showMore &&
-                  <div className="paragraph">
-                    <p>TThis app allows users to vote on whether they prefer the movie adaptation of a book to the book or vice- versa. Users can register/login as well as leave reviews for the various titles that are available.</p>
-                  </div>
-              }
-            </div>
+          <div className="project-list">
+            <Fade right>
+              <Project 
+                name="Frogger"
+                description="I had one week to build a grid- based game using JavaScript, CSS and HTML. I chose to create Frogger, which was challenging but helped solidify my fundamental JavaScript knowledge."
+                image="https://i.imgur.com/biEhBae.png"
+                github="https://github.com/walazeidan/Project-One"
+                site="https://walazeidan.github.io/Project-One/"
+                techOne="HTML"
+                techTwo="CSS"
+                techThree="JavaScript"
+                direction="reverse"
+              ></Project>
+            </Fade>
+
+            <Fade left>
+              <Project 
+                name="Pokedex"
+                description="Pair-programming hack-a-thon where we used an external API to build a React app that allowed users to view a variety of ‘Pokemon’. This was my first time working on a search function as well as a filter function that allowed users to view ‘Pokemon’ of a particular ‘type’."
+                image="https://i.imgur.com/QiiOHcf.png"
+                github="https://github.com/walazeidan/Project-Two"
+                site="https://pokereactdex.netlify.app/"
+                techOne="React"
+                techTwo="SASS"
+                techThree="Bootstrap"
+              ></Project>
+            </Fade>
+
+            <Fade right>
+              <Project 
+                name="Pint Pirate"
+                description="This was a 3-person group project and my first full-stack venture. We used Express and MongoDB for backend and React for frontend to develop an application and that shows users which cities in the UK have the cheapest beers as well as where exactly in each city you can find said beer. My responsibilities included allowing users to leave reviews and to delete them, creating a search function and building the authentication."
+                image="https://i.imgur.com/74ev7et.png"
+                github="https://github.com/walazeidan/Project-Three"
+                site="https://pint-pirate.herokuapp.com/"
+                techOne="React"
+                techTwo="Node.js"
+                techThree="MongoDB"
+                direction="reverse"
+              ></Project>
+            </Fade>
+
+            <Fade left>
+              <Project 
+                name="The Hollywood Effect"
+                description="I worked on this app solo, using Python, Django, and PostgreSQL for my backend and React for my frontend. This app allows users to vote on whether they prefer the movie adaptation of a book to the book or vice- versa. Users can register/login as well as leave reviews for the various titles that are available."
+                image="https://i.imgur.com/i4n5rLS.png"
+                github="https://github.com/walazeidan/Project-Four"
+                site="https://the-hollywood-effect.herokuapp.com/"
+                techOne="React"
+                techTwo="Django"
+                techThree="PostgreSQL"
+              ></Project>
+            </Fade>
           </div>
         </div>
       </div>
