@@ -20,6 +20,10 @@
       font-size: 150px;
       color: #957DAD;
       margin: 10px;
+      transition: 0.4s ease-in-out;
+      &:hover {
+      transform: scale(2);
+      cursor: pointer;
     }
   }
   h1{
@@ -28,4 +32,20 @@
     justify-content: center;
     margin-top:30%;
   }
+}
+
+.hide {
+  display: none;
+  color: #957DAD;
+  text-align: center;
+  border: 1px solid #957DAD;
+  border-radius: 50px;
+  font-family: 'Shrikhand', cursive;
+
+}
+
+.reveal:hover + .hide {
+  display: block;
+  cursor: pointer;
+}
 }

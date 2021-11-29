@@ -10,21 +10,66 @@ const Skills = () => {
       <div className="container">
         <div className="bullet-list d-flex justify-content-around">
           <Roll left>
-            <i className="devicon-html5-plain-wordmark colored"></i>
-            <i className="devicon-css3-plain-wordmark colored"></i>
-            <i className="devicon-sass-original colored"></i>
-            <i className="devicon-bootstrap-plain-wordmark colored"></i>
-            <i className="devicon-javascript-plain colored"></i>
-            <i className="devicon-react-original-wordmark colored"></i>
-            <i className="devicon-nodejs-plain colored"></i>
-            <i className="devicon-express-original colored"></i>
-            <i className="devicon-mongodb-plain-wordmark colored"></i>
-            <i className="devicon-yarn-plain-wordmark colored"></i>
-            <i className="devicon-npm-original-wordmark colored"></i>
-            <i className="devicon-python-plain colored"></i>
-            <i className="devicon-django-line colored"></i>
-            <i className="devicon-postgresql-plain colored"></i>
-            <i className="devicon-yarn-plain colored"></i>
+            <div className="text-and-icon">
+              <i className="devicon-html5-plain-wordmark reveal colored"></i>
+              <div className="hide">HTML5</div>
+            </div>
+            <div className="text-and-icon">
+            <i className="devicon-css3-plain-wordmark reveal colored"></i>
+            <div className="hide">CSS3</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-sass-original reveal colored"></i>
+              <div className="hide">SASS</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-bootstrap-plain-wordmark reveal colored"></i>
+              <div className="hide">Bootstrap</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-javascript-plain reveal colored"></i>
+              <div className="hide">JavaScript</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-react-original-wordmark reveal colored"></i>
+              <div className="hide">React</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-nodejs-plain reveal colored"></i>
+              <div className="hide">NodeJS</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-express-original reveal colored"></i>
+              <div className="hide">Express</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-mongodb-plain-wordmark reveal colored"></i>
+              <div className="hide">MongoDB</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-yarn-plain-wordmark reveal colored"></i>
+              <div className="hide">Yarn</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-npm-original-wordmark reveal colored"></i>
+              <div className="hide">NPM</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-python-plain reveal colored"></i>
+              <div className="hide">Python</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-django-line reveal colored"></i>
+              <div className="hide">Django</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-postgresql-plain reveal colored"></i>
+              <div className="hide">PostgreSQL</div>
+            </div>
+            <div className="text-and-icon">
+              <i className="devicon-yarn-plain reveal colored"></i>
+              <div className="hide">Yarn</div>
+            </div>
           </Roll>
         </div>
       </div>

@@ -9,12 +9,18 @@ const Contact = () => {
       </div>
       <div className="contact-links">
         <Roll right>
-          <a href="https://github.com/walazeidan" className="personal-link" rel="noreferrer" target="_blank">
-            <i className="devicon-linkedin-plain"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/wala-zeidan/" className="personal-link" rel="noreferrer" target="_blank">
-            <i className="devicon-github-original"></i>
-          </a>
+          <div className="contact-info">
+            <a href="https://github.com/walazeidan" className="personal-link" rel="noreferrer" target="_blank">
+              <i className="devicon-linkedin-plain reveal"></i>
+              <div className="hide">GitHub</div>
+            </a>
+          </div>
+          <div className="contact-info">
+              <a href="https://www.linkedin.com/in/wala-zeidan/" className="personal-link" rel="noreferrer" target="_blank">
+                <i className="devicon-github-original reveal"></i>
+                <div className="hide">Linkedin</div>
+              </a>
+          </div>
         </Roll>
       </div>
     </div>

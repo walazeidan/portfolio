@@ -41,6 +41,7 @@ const Projects = () => {
                 techOne="React"
                 techTwo="SASS"
                 techThree="Bootstrap"
+                direction="reverse"
               ></Project>
             </Fade>
 
@@ -68,6 +69,7 @@ const Projects = () => {
                 techOne="React"
                 techTwo="Django"
                 techThree="PostgreSQL"
+                direction="reverse"
               ></Project>
             </Fade>
           </div>
