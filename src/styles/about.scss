@@ -1,6 +1,6 @@
-#about {
-  height: 100vh;
-}
+// #about {
+//   height: 100vh;
+// }
 
 .wala-pic {
   background-image: url("./images/wala.jpeg");
@@ -30,5 +30,17 @@
   P {
     font-size: 20px;
     color: white;
+    padding: 5px;
+  }
+}
+
+.goodreads-link {
+  color: white;
+  text-decoration: underline;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    color: white;
+    text-decoration: underline;
   }
 }
