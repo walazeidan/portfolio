@@ -17,30 +17,16 @@ const Projects = () => {
             <hr />
           </div>
           <div className="project-list">
-            <Fade right>
+          <Fade left>
               <Project 
-                name="Frogger"
-                description="I had one week to build a grid- based game using JavaScript, CSS and HTML. I chose to create Frogger, which was challenging but helped solidify my fundamental JavaScript knowledge."
-                image="https://i.imgur.com/biEhBae.png"
-                github="https://github.com/walazeidan/Project-One"
-                site="https://walazeidan.github.io/Project-One/"
-                techOne="HTML"
-                techTwo="CSS"
-                techThree="JavaScript"
-                direction="reverse"
-              ></Project>
-            </Fade>
-
-            <Fade left>
-              <Project 
-                name="Pokedex"
-                description="Pair-programming hack-a-thon where we used an external API to build a React app that allowed users to view a variety of ‘Pokemon’. This was my first time working on a search function as well as a filter function that allowed users to view ‘Pokemon’ of a particular ‘type’."
-                image="https://i.imgur.com/QiiOHcf.png"
-                github="https://github.com/walazeidan/Project-Two"
-                site="https://pokereactdex.netlify.app/"
+                name="The Hollywood Effect"
+                description="I worked on this app solo, using Python, Django, and PostgreSQL for my backend and React for my frontend. This app allows users to vote on whether they prefer the movie adaptation of a book to the book or vice- versa. Users can register/login as well as leave reviews for the various titles that are available."
+                image="https://i.imgur.com/i4n5rLS.png"
+                github="https://github.com/walazeidan/Project-Four"
+                site="https://the-hollywood-effect.herokuapp.com/"
                 techOne="React"
-                techTwo="SASS"
-                techThree="Bootstrap"
+                techTwo="Django"
+                techThree="PostgreSQL"
                 direction="reverse"
               ></Project>
             </Fade>
@@ -61,17 +47,32 @@ const Projects = () => {
 
             <Fade left>
               <Project 
-                name="The Hollywood Effect"
-                description="I worked on this app solo, using Python, Django, and PostgreSQL for my backend and React for my frontend. This app allows users to vote on whether they prefer the movie adaptation of a book to the book or vice- versa. Users can register/login as well as leave reviews for the various titles that are available."
-                image="https://i.imgur.com/i4n5rLS.png"
-                github="https://github.com/walazeidan/Project-Four"
-                site="https://the-hollywood-effect.herokuapp.com/"
+                name="Pokedex"
+                description="Pair-programming hack-a-thon where we used an external API to build a React app that allowed users to view a variety of ‘Pokemon’. This was my first time working on a search function as well as a filter function that allowed users to view ‘Pokemon’ of a particular ‘type’."
+                image="https://i.imgur.com/QiiOHcf.png"
+                github="https://github.com/walazeidan/Project-Two"
+                site="https://pokereactdex.netlify.app/"
                 techOne="React"
-                techTwo="Django"
-                techThree="PostgreSQL"
+                techTwo="SASS"
+                techThree="Bootstrap"
                 direction="reverse"
               ></Project>
             </Fade>
+
+            <Fade right>
+              <Project 
+                name="Frogger"
+                description="I had one week to build a grid- based game using JavaScript, CSS and HTML. I chose to create Frogger, which was challenging but helped solidify my fundamental JavaScript knowledge."
+                image="https://i.imgur.com/biEhBae.png"
+                github="https://github.com/walazeidan/Project-One"
+                site="https://walazeidan.github.io/Project-One/"
+                techOne="HTML"
+                techTwo="CSS"
+                techThree="JavaScript"
+                direction="reverse"
+              ></Project>
+            </Fade>
+
           </div>
         </div>
       </div>

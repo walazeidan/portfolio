@@ -10,8 +10,11 @@
     .name {
       a {
         color: white;
-        font-size: 30px;
+        font-size: 25px;
         font-family: 'Shrikhand', cursive;
+        // border: 1px solid white;
+        // border-radius: 10px;
+        // padding: 5px;
         &:hover {
           transform: scale(1.1);
           cursor: pointer;
