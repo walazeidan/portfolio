@@ -1,0 +1,2 @@
+(this.webpackJsonpcheesebored=this.webpackJsonpcheesebored||[]).push([[0],{11:function(e,n,c){"use strict";c.r(n);c(1);var r=c(3),s=c.n(r),t=(c(8),c(9),c(0));var o=function(){return Object(t.jsx)("div",{className:"wrapper",children:Object(t.jsx)("h1",{children:"coming soon"})})};s.a.render(Object(t.jsx)(o,{}),document.getElementById("root"))},9:function(e,n,c){}},[[11,1,2]]]);
+//# sourceMappingURL=main.0ff86e42.chunk.js.map
